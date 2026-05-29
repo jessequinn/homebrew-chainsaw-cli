@@ -1,23 +1,23 @@
-# homebrew-chainsaw
+# homebrew-chainsaw-cli
 
-Homebrew tap for [chainsaw](https://github.com/jesse-quinn/chainsaw-cli) — a supply chain security scanner for CRA compliance.
+Homebrew tap for [chainsaw-cli](https://github.com/jessequinn/chainsaw-cli) -- a supply chain security scanner for CRA compliance.
 
 ## Install
 
 ```bash
-brew tap jesse-quinn/chainsaw
-brew install chainsaw
+brew tap jessequinn/chainsaw-cli
+brew install --cask chainsaw-cli
 ```
 
 ## Upgrade
 
 ```bash
-brew upgrade chainsaw
+brew upgrade --cask chainsaw-cli
 ```
 
 ## Uninstall
 
 ```bash
-brew uninstall chainsaw
-brew untap jesse-quinn/chainsaw
+brew uninstall --cask chainsaw-cli
+brew untap jessequinn/chainsaw-cli
 ```
